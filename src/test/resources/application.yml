@@ -1,0 +1,17 @@
+spring: #띄어쓰기 없음
+#  datasource: #띄어쓰기 2칸
+#    url: jdbc:h2:mem:test #테스트 케이스에서 db를 메모리로 바꿔서 테스트 할 수 있다.
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#  jpa: #띄어쓰기 2칸
+#    hibernate: #띄어쓰기 4칸
+#      ddl-auto: create #띄어쓰기 6칸
+#    properties: #띄어쓰기 4칸
+#      hibernate: #띄어쓰기 6칸
+##        show_sql: true #띄어쓰기 8칸
+#        format_sql: true #띄어쓰기 8칸
+# 사실 위에 설정이 다 없어도 스프링 부트가 자동으로 메모리 db로 돌려준다.
+logging.level: #띄어쓰기 없음
+  org.hibernate.SQL: debug #띄어쓰기 2칸
+  org.hibernate.type: trace #띄어쓰기 2칸
